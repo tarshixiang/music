@@ -1,0 +1,24 @@
+<ion-view>
+	<ion-content class="state-bg">
+		<div class="search" >
+			<i></i>
+			<input type="search" ng-focus="focus()" placeholder="        搜索歌曲、歌单、专辑" ng-model="inp.txt">	
+			<button ng-click="search()" ng-class='{ true : "hideone"}[isClose]'>取消</button>
+		</div>
+		<!-- <ion-item class='searchList'>
+			<i></i>
+			<p class="sP1"></p>
+			<p class="sP2"></p>
+		</ion-item> -->
+		<div class="remen">
+			<h2>热门搜索</h2>
+			<span class="spellSpan">梦想的声音</span>
+			<span>逆流成河 金南玲 </span>
+			<span>蓝色大海的传说 </span>
+			<span>你就不要想起我 </span>
+			<span>蒙面唱将猜猜猜 </span>
+			<span>往事只能回味 </span>
+		</div>
+		
+	</ion-content>
+</ion-view>
